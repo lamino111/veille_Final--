@@ -1,0 +1,795 @@
+﻿
+/*-------------style des page vieulleur--------*/
+.bbody{ margin:auto;
+ height: 1000px;width: 961px;
+}
+section{height: auto;width:900px;float: right; background-color:#eceff1; margin-top: 40px;margin-bottom: 40px;margin-right: -70px;
+       box-shadow: 1px 0px 10px 7px #00849d;
+       border-radius: 5px 5px 5px 5px;
+       color: #2196f3;
+       padding: 0 20px;
+       m
+}
+section h1{color: #00849d; font-size: 29px; font-family: arial;}
+section P{ font-size: 20px;text-align: center; font-family: arial;}
+.font{ width: 1100px;}
+#secutil{ width: 960px; margin-right:250px; margin-top: -870px;}
+
+/*-------------------------style ta3 hadak loader--------------------------------*/
+.div_lod{
+	position: absolute;
+	background-color: #eeeeee;
+	height: 100px;
+	width: 380px;
+	line-height: 100px;
+	font-size: 30px;
+	color: #00849d;
+	text-align: center;
+	margin-top: -320px;
+	margin-left: 250px;
+	padding: 40px 0;
+	border-radius: 5px;border-radius: 5px;
+}
+ 
+.lod{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+
+}
+.lod_1{ border-radius: 50px; border: 6px solid #00849d;}
+.lod_1:after{
+	content:'';
+	position: absolute;
+	top: -6px; left: -6px;
+	bottom: -6px;
+	right: -6px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+border-top-color:#fff;
+	animation:spin 1s linear infinite; 
+}
+@keyframes spin{
+	0%{ transform: rotate(0deg);}
+	100%{ transform: rotate(360deg);}
+}
+/*------------*************FIN loader*******-------------------------*******/
+footer{position: relative;clear: both;}
+
+/*--------------  louis---------------------*/
+
+
+/*--------- style de page index------------*/
+body{
+	background-color: #00a5c3;
+	margin: 0;
+	padding: 0;
+}
+#header{
+	
+	width: 100%;
+	height: 150px;
+	background-color: #FFF;
+	
+}
+h1{
+	color: #FFF;
+	
+	font-size: 50px;
+	font-family: arial;
+	text-align: center;
+	margin-right: 50px;
+
+}
+/*--------- style de logo du page------------*/
+#logo{height:150px;
+	width:961px;
+	margin-left: 150px;
+}
+/*--------- style la photo------------*/
+#image_cetim{
+
+	height:530px;
+	width:700px;
+	float:left;
+	margin-left: 20px;
+	border-radius: 51px 51px 51px 51px;
+	box-shadow: 70px 0px 500px #FFF;
+
+
+ }
+/*--------- style de formulaire de connection ------------*/
+#form_connexion{
+	width: 35%;
+	height: 400px;
+	background-color: transparent;
+	margin-left: 900px;
+	margin-top: 100px;
+	 }
+#form_connexion p{
+	font-size: 20px;
+	color: #103754;
+	font-family: cursive;
+	margin: 5px;
+	margin-top: 10px;
+	 }
+	 /*--------inp est la class pour le style des inpute de formulaire------------*/
+.inp{
+
+	 width: 250px;
+	 height: 35px;
+	 border: 2px solid #e5e5e5;
+	 border-radius: 5px 5px 5px 5px;
+	 background-color: #a6c3cf;
+}
+.inp:focus:invalid{border:1px solid  #ff0000;}
+.inp:focus:valid{border:1px solid  #56C93F;}
+/*--------- style de boutan de connection------------*/
+.boutan{
+	width: 100px;
+	height: 39px;
+	margin-top: 15px;
+	color: #fff;
+	background-color: #00a8d5;
+	font-size: 18px;
+	cursor: pointer;
+	border: 1px solid #103754; 
+	 border-radius: 5px 5px 5px 5px;
+	 
+
+}
+.boutan:hover{
+	text-decoration: non;
+	width: 100px;
+	height: 39px;
+	margin-top: 15px;
+	color: #fff;
+	background-color: #0085ac;
+	font-size: 18px;
+	cursor: pointer;
+	 transition: all .3s ease-in;
+	 border: 1px solid #103754; 
+	 border-radius:  5px  5px 5px  5px;
+
+}
+/*--------- style de footer de page index------------*/
+#fot{
+
+	margin-top: 100px;
+	
+	width: 100%px;
+	height: 110px;
+	background-color:#2b5464;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px;
+	font-family: Georgia;
+	color: #b0afa8;
+	border-top: 7px #0085ac solid;
+}
+#fot  ul {
+margin-right: 100px;
+}
+
+#fot  ul li {
+	font: 13px Verdana, 'Lucida Grande';
+	cursor: pointer;
+
+	transition: padding .05s linear;
+  
+}
+#fot  ul > li {
+	display: inline-block;
+}
+#fot  ul li a {
+	line-height: 80px;
+	padding: 0 20px;
+	height: 80px;
+	color: #b0afa8;
+	font-size: 25px;
+	text-decoration: none;
+
+	
+	transition: all .3s ease-out;
+}
+#fot  ul li a:hover {
+	color: #FFF;
+}
+/*---------------------------------------style f la page redirection ida manr login ou mot de pass non valid--------------------*/
+#divred{
+	width: 900px; height: 400px;
+	background-color: #00849d;
+	margin-left: 250px;
+	margin-top: 150px;
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+#divred a{
+	position: absolute; padding: 20px 20px 20px;
+	text-decoration: none;
+	color: #fafafa;
+	border-radius: 50px 50px 50px 50px;
+	
+	background-color: #7bcddd;
+	margin-top: 100px;
+	margin-left: -430px;
+}
+#divred a:hover{
+	position: absolute; padding: 20px 20px 20px;
+	text-decoration: none;
+	color: #fafafa;
+	border-radius: 50px 50px 50px 50px;
+	
+	background-color: #66b5fa;
+	margin-top: 100px;
+	margin-left: -430px;
+	transition: all .4s ease-in;
+}
+#divred h1{
+	color: #66b5fa;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+
+/*---style de menu horésontale---*/
+
+/*---style de menu de tous les href---*/
+
+
+/*------le style de boutan dans la liste---------*/
+
+.membre{
+	position: relative;
+	margin-right:10px; 
+	width: 170px;
+	height: 45px;
+	background-color: #00849d;
+	float: right;
+	margin-top: -68px;
+	text-align: center;	
+	border-radius: 5px 5px 5px 5px;
+	box-shadow:1px 1px 3px #999;
+
+}
+/*------le style le href de boutant ---------*/
+
+.membre a{
+      position: absolute;
+	text-decoration: none;
+	font-size: 19px;
+	color: #e0f8fc;
+	font-family: fantasy;
+	margin-top: 8px;
+	margin-left: -61px;
+
+	
+}
+
+.membre:hover{
+	position: relative;
+	margin-right:10px; 
+	width: 170px;
+	height: 45px;
+	background-color: #026c80;
+	margin-left: 1160px;
+	float: right;
+	margin-top: -68px;
+	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+	
+	 transition: all .3s ease-in;
+}
+
+
+
+
+/*---------------------------------------********stile ta3 le menu verticale---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+/*------style de l'idantifiant--------*/
+
+#menu ul li a{ position: absolute;
+	margin-top: -18px; }
+/*------style de l'idantifiant-----*/
+#menu{
+	width: 200px;
+	margin-top: 90px;
+margin-left: -200px}
+/*------style de la liste---------*/
+
+#menu ul {
+	list-style: none;
+}
+
+
+
+#menu ul li {
+	margin-top: 5px;
+	font-family: tahoma;
+	font-size: 20px;
+	background-color: #00CED1;
+	width: 231px;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 0px;
+	box-shadow: 5px 10px 10px #00849d;
+	 transition: padding-left 0.6s;
+	
+	
+}
+#menu ul li a{
+	text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+font-size: 20px;}
+
+#menu ul li a:hover{ color: #00849d;}
+
+#menu ul li:hover {
+	padding-left: 50px;
+	cursor: pointer;
+	background-color: #53E3D5;
+
+}
+
+
+/*---------------- flux style --------------*/
+.flux_style{
+	height:auto;
+	width:900px;
+	
+	margin-top: 55px;
+	background-color: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	font-size: 19px;
+	color: #404852;
+	border-radius: 5px 5px 5px 5px;
+    
+}
+.rss_text{font-size: 15px;text-align: left;padding: 2px;margin-left: 9px;border-bottom: 3px solid #e5e5e5;
+           font-family: sans-serif;padding: 0 0 20px;}
+.rss_date{text-align: left;font-size: 19px; margin-left: 9px;color: #7b7878;}
+.rss_lein{text-decoration: none;color:#2196f3 }
+
+
+
+/*------------------------***********************--le css de nemu jdide---******----------------------------------------------------------*/
+/*----**********************************************************************************************************************-----------*/
+#menu1{
+	width: 1000px; margin: auto;
+		
+}
+
+/*------pour le sytel du nav-------*/
+
+nav{
+	margin-top: 10px;
+	width: 1020px;
+
+
+}
+nav ul{padding: 0; margin: 0;
+	list-style: none;
+	background-color: #00CED1;
+	border-radius: 0px 5px 5px 0px;
+	padding: 19 5px ;
+}
+/***********pour le float et le menu li yahbet*********/
+nav ul:after{
+	content: '.'; clear: both;
+	visibility: hidden;
+	display: block;
+	height: 0px;
+}
+nav ul li{
+	float: left;
+	position: relative;
+	line-height: 20px;
+}
+nav ul li a{
+	display: block;
+	color: #fff;
+	font-size: 19px;
+    text-decoration: none;
+    padding: 14px 10px 15px;
+    font-family: 'Roboto', sans-serif;	
+}
+nav ul li:hover > a{
+     color:#349BDB;
+    transition: all 0.5s ease-out;
+}
+nav ul li.activ > a{color: #29B0B9;}
+
+/**********style te3 le ptiit triangle****sub menu*************/
+
+nav ul li > ul:before {
+	content: "";
+	border-style: solid;
+	border-width: 0 9px 9px 9px;
+	border-color: transparent transparent #3ACABB transparent;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 15px;
+	top: 22px;
+
+
+}
+
+nav ul li > ul{
+	position: absolute;
+	left: 14px; top: 80%; padding-top: 30px;
+	background: none;
+	width: 150px;
+	z-index: -9999;
+	display: none;
+	-moz-transition: 0.3s ease-out;
+}
+nav ul li:hover > ul {
+	display: block;
+	z-index: 100;
+	opacity: 1;
+	top: 95%;
+	 }
+
+nav ul li > ul li:first-child{ border-radius: 4px 4px 0px 0px; padding-top: 3px;}
+nav ul li > ul li:last-child{ border-radius: 0px 0px 4px 4px;}
+nav ul li > ul li{
+	padding: 0 3px 3px;
+	background-color: #3ACABB;
+	width: 100%;
+}
+/*-------------------stlyle ta3 les liens dakhel le menu li yahabto------*/
+nav ul li > ul li a{
+	display: block;
+	padding: 6px 9px;
+	border-radius: 2px;
+	font-size: 16px;
+}
+nav ul li > ul li:hover > a{
+	color: #fff;
+	background-color: #349BDB;
+}
+nav ul li > ul li.activ > a{
+	color: #fff;
+	background-color: #29B0B9;
+}
+/*******************win kayen veilleur employé ect..sub sub menu..**********************/
+
+nav ul li > ul li > ul:before {
+	content: "";
+	border-style: solid;
+	border-width: 8 9px 9px 9px;
+	border-color: transparent transparent #3ACABB transparent;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 15px;
+	-moz-transform: rotate(270deg);
+}
+
+nav ul li > ul li > ul {
+	top: 0px;
+	left: 90%;
+	padding: 0; padding-left: 13px;
+	-moz-transition: 0.3s ease-out;
+}
+nav ul li > ul li:hover > ul{
+	display: block;
+	opacity: 1;
+	z-index: 100;
+	top: 0;
+	left: 100%
+}
+/*------------------*******************************************fin css menu jdid************************************************--------------*/
+/********************************************************************************************************************************/
+/*-----------------------------------style te3 le formulaire dajout lois norm techno..........******************/
+fieldset{
+
+	border-radius: 5px;
+	margin: 0 20px;
+	font-family:Arial ;
+	background-color: #fafafa;
+}
+
+fieldset form{
+	padding: 5px;
+	font-size: 17px;
+
+}
+fieldset form input{
+	padding: 5px;
+	margin: 5px 0;
+	width: 200px;
+	margin-left: 5px;
+
+}
+
+
+fieldset form label{ color: #2196f3;margin-left: 5px;   }
+fieldset form select{ padding-left: 30px; height: 30px;}
+fieldset form textarea{ height: 150px; width: 350px; padding-left: 5px;}
+fieldset form .boutan1{
+	width: 110px;
+	height: 40px;
+	margin-top: 35px;
+	margin-left:0px;
+	color: #fff;
+	background-color: #2196f3;
+	font-size: 18px;
+	cursor: pointer;
+	border: 1px solid #103754; 
+	 border-radius: 5px 5px 5px 5px;
+}
+fieldset form .boutan1:hover{ background-color: #00a5c3;}
+fieldset form input:focus:invalid{border:1px solid  #ff0000;}
+fieldset form input:focus:valid{border:1px solid  #56C93F;}
+fieldset form textarea:focus:invalid{border:1px solid  #ff0000;}
+fieldset form textarea:focus:valid{border:1px solid  #56C93F;}
+
+.nature_text{position: absolute; margin: 0;padding: 0; font-size: 17px;margin-left: 470px;margin-top: 10px;
+width: 190px;height: 100px;text-align: center;font-family: Arial;}
+.nature_text a{text-decoration: none;color:#2196f3;font-family: arial; }
+.nature_text a:hover{text-decoration: underline; }
+/*--------------------------------------------le style ta3 formulaire gere_compte----------------------------------------*/
+#gere{margin-top: 100px;}
+.boutan2{
+	width: 110px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 10px;
+	color: #fff;
+	background-color: #00a8d5;
+	font-size: 18px;
+	cursor: pointer;
+	border: 1px solid #103754; 
+	 border-radius: 5px 5px 5px 5px;
+}
+.annuler2{
+	background-color: #dadada;
+         width: 110px; height: 40px;
+         position: absolute;
+         margin-top: -47px;
+         margin-left: 180px;
+         border-radius: 5px 5px 5px 5px;
+}
+.annuler2 a{
+	text-decoration: none;
+            text-align: center;
+           position: absolute;
+           padding: 20px;
+            padding-top: 8px;
+            color: #000; 
+            font-family: arial; font-size: 18px;cursor: pointer;
+}
+
+/*--------------------------------------------------------style te3 le boutan annuler----------------------------------*/
+.annuler{ background-color: #dadada;
+         width: 110px; height: 40px;
+         position: absolute;
+         margin-top: -45px;
+         margin-left: 280px;
+         border-radius: 5px 5px 5px 5px;
+
+         }
+.annuler a{text-decoration: none;
+           text-align: center;
+           position: absolute;
+           padding: 20px;
+            padding-top: 8px;
+            color: #000; 
+            font-family: arial; font-size: 18px;cursor: pointer;            
+}
+.annuler:hover{ background-color: #aeaeae;}
+
+/*-------------------------------------------hnaya le style ta3 ki 9omek bienvenue velleur,admin,.......--------------*/
+/*dive li 3ndo class b1venue*/
+.bienvenue{ position: absolute;
+	width: 133px; 
+	height: 87px;
+	background-color: #00849d;
+	margin-top: 0px;
+	margin-left: -133px;
+	border-radius: 5px 0px 0px 5px;       
+}
+.bienvenue p{padding: 0;margin: 0;
+	       text-align: center;
+	       margin-left: -13px;
+          color: #e0f8fc;
+          font-size: 19px;
+          margin-top: 21px;
+          padding: 0 15px;
+          text-shadow: 1px 5px 2px #003738;
+          font-family: arial;
+          
+}
+/*----------------------------pour le hover-------------------------------------------------------*/
+.bienvenue:hover{background-color: #fff; cursor: pointer; text-shadow: none; }
+.bienvenue p:hover{color: #00CED1;  text-shadow: none;}
+.bienvenue a{ position: absolute;
+	         text-decoration: none;
+	         text-align: center;
+              color: #e0f8fc;
+              font-size: 19px;
+              margin-top: 19px;
+              margin-left: 9px;
+              text-shadow: 1px 5px 2px #003738;
+              font-family: arial;     
+ }
+.bienvenue a:hover{color: #00CED1;  text-shadow: none;}
+/*---------------------------------------style ta3 linfobulle -------------------------------------*/
+.bienvenue a span{
+	 position:absolute;
+	 margin-top:55px;
+     margin-left:-51px;
+     color:#09c;
+     width: 350px;
+     background:rgba(1000,1000,1000,.5);
+     padding:9px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);
+     transition:all .25s;
+     opacity:0;
+     border-radius: 10px;
+}
+.bienvenue a span:after{content: "\25B8";
+                        color:rgba(1000,1000,1000,.9);
+                        position: absolute;
+                        font-size: 35px;
+                        width: 100%;
+                        text-align: center;
+                        margin-left: -505px;margin-top: -38px;
+                        transform: rotate(270deg);
+
+ }
+.bienvenue a:hover span, a:focus span{transform:scale(1) rotate(0);opacity:1;}
+/*------------------------------------------------------------le syle de les lein facebook outre site.....-----------------------------*/
+/*--------------------div li3andha classe aside-------------------------*/
+.aside{width: 250px;height: 130px;
+   background-color: #e0f8fc;
+   margin-left: -170px;
+   border-radius: 5px;
+   opacity: 0.9;
+   box-shadow: 1px 0px 10px 7px #00849d;
+}
+.aside h2{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 60px;
+	color: #00849d;
+
+}
+/*-----------------style ta3 les images--dans le aside----------------*/
+.google{ position: absolute; margin-top: 60px;margin-left: 20px;}
+.google:hover{background-color: #fff;opacity: 0.8; cursor: pointer;}
+.facebook{ position: absolute; margin-top: 60px;margin-left: 90px;}
+.facebook:hover{background-color: #fff;opacity: 0.8; cursor: pointer;}
+.twitter{ position: absolute; margin-top: 60px;margin-left: 160px;}
+.twitter:hover{background-color: #fff;opacity: 0.8; cursor: pointer;}
+.afnor{ text-decoration: none; position: absolute; margin-top: 120px;margin-left: 20px;color: #00CED1;font-family: arial;}
+.afnor:hover{color: #00849d; text-decoration: underline;  transition: all .3s ease-in;}
+.iso{ text-decoration: none; position: absolute; margin-top: 160px;margin-left: 20px;color: #00CED1;font-family: arial;}
+.iso:hover{color: #00849d; text-decoration: underline;  transition: all .3s ease-in;}
+/*------------------------------------------------style ta3 l'affichage des utilisateur-----------------------------------*/
+.affiche_util{ 
+	 width: 800px;
+	 padding: 20px;
+	 background-color:transparent;
+	 margin: auto;
+	 border-radius: 5px 5px 5px 5px;
+/*---------------------------------------------------style ta3 la3 le tableau----------------------------------*/
+	}
+table{
+	border-collapse: collapse;
+	border:1px solid #D9E4E6;
+	font-size: 17px;
+	color:#3f4951;
+	text-align: center;
+	background-color: #fafafa;
+    }
+th{  
+	border: 1px solid #D9E4E6;
+	font-family: arial;
+	padding: 10px;
+	background-color: #167f92;
+	text-align: center;
+	color: #fff;}
+ tr td{ padding: 12px;border-bottom: 1px solid #D9E4E6; border-left: 1px solid #D9E4E6;}	
+tr:nth-child(even){
+	background-color:#eaf3f3; }
+
+
+tr td a{
+   text-decoration: none;
+   color: #3f4951; margin-left: -35px;
+   position: absolute;
+   background-color: #d9e4e6;
+   padding: 7px ;
+   margin-top: -20px;
+   border-radius: 5px;
+    box-shadow: 0px 1px 1px 0px #00849d;
+}
+tr td a:hover{background-color: #c9d4d6;}
+/*--------------------------------------------------------------style ta3 affiche des publication no validé*/
+	
+/*-----------------------------------------------style ta3 lz msg de confirmation-------------------------------*/
+.erreur{
+	position:absolute;
+	background-color: #eeeeee;
+	        padding: 50px;
+	        font-size: 25px;
+	        margin-top: -300px;margin-left: 250px;width: 300px;border-radius: 5px;color: #00849d;
+	       
+}
+.erreur img{margin-left: 15px;width: 50px;height: 50px;margin-left: 270px;margin-top: -39px;}
+.succe{position:absolute;
+	background-color: #eeeeee;
+	        padding: 50px;
+	        font-size: 25px;
+	        margin-top: -300px;margin-left: 250px;width: 300px;border-radius: 5px;color: #00849d;}
+.succe img{margin-left: 20px;position: absolute;}
+/*------------------------------------------------------style t3 les commentaire-------------------------------------*/
+.divpublication{background-color:}
+
+
+
+.publication{color: #2196f3;padding: 20px;}
+.affiche_pub{ 
+	width: 960px;
+	 padding: 20px;
+	 background-color:transparent;
+	 margin: auto;
+	 border-radius: 5px 5px 5px 5px;
+	 margin-top: -120px;
+	 margin-left: -20px;
+	 }
+.tab_pub{
+	margin-left: 90px;
+	border-collapse: collapse;
+	border:1px solid #D9E4E6;
+	font-size: 17px;
+	color:#3f4951;
+	text-align: center;
+	background-color: #fafafa;}
+.tab_publication{margin-left: -130px; font-size: 15px;}
+.style_com{background-color: #f9f9f9;
+          border: none;
+          font-size: 14px;
+          font-family: arial;
+          border-bottom: 2px solid #d0cece;
+          padding: 10px;
+          margin-bottom: 20px;
+          box-shadow: 1px 2px 2px 0px #167f92; 
+          color: #3f4951;}
+.fiecom{border-bottom: 3px solid #3f4951;padding: 0;margin: 0;}
+.mat_p{color: #2196f3;font-family: arial; font-size: 20px;}
+.h2{padding: 0;margin: 0;}
+.date{color: #707070;text-align: left;padding: 0;margin: 0;font-size: 12px;margin-top: 5px;}
+h5{color:#191b1b;margin: 0;padding: 0;font-size: 14px;margin-top: -22px;}
+.supp_com{text-decoration: none;margin-left: 800px;background-color:#eceff1;
+           padding: 7px ;
+           position: absolute;
+           border-radius: 5px;
+           color: black;
+            box-shadow: 0px 1px 1px 0px #2196f3;margin-top: -33px; }
+.supp_com:hover{background-color: #c9d4d6;}
+/*---------------------style de boutan commenter------------*/
+.boutan_com{background-color: #00a8d5;color: #fff; border-style: none;padding: 7px;font-size: 15px;font-family: arial;
+            border-radius: 5px;margin-left:40px;margin-top: 116px; ;position: absolute;font-weight: bolder;cursor: pointer;
+             box-shadow: 0px 1px 1px 0px #eceff1;}
+.boutan_com:hover{background-color: #0186aa; transition: all .3s ease-in;}
+/*------------------------------------------------style de tableau de publication---------------------------------*/
+
+}
+/*style de tableau affichager des ajout des veilleur*/
+.tab_pub_veilleur{margin-left: -300px; font-size: 15px;}
+.tab_pub_veilleur tr{font-size: 12px;}
